@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
+
+
+
+#dropdown-menu-2btn-3 .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-2btn-3 .navbar-brand a {
+  font-size: 32px;
+  font-family: 'Oxygen', sans-serif;
+}
+#dropdown-menu-2btn-3 .nav .link,
+#dropdown-menu-2btn-3 .dropdown-item {
+  font-size: 1.6em;
+  color: #efefef;
+  font-family: 'Noto Sans', sans-serif;
+}
+#dropdown-menu-2btn-3 .navbar,
+#dropdown-menu-2btn-3 .dropdown-menu {
+  background: #27aae0;
+}
+#dropdown-menu-2btn-3 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-2btn-3 .dropdown-menu a:hover,
+#dropdown-menu-2btn-3 .dropdown-menu a:focus {
+  background: #1e9fd4;
+}
+#dropdown-menu-2btn-3 .navbar-toggler {
+  color: #efefef;
+}
+#msg-box3-a .mbr-header .mbr-header__text {
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-size: 30px;
+  color: #f97352;
+}
+#msg-box3-a .mbr-header .mbr-header__subtext {
+  text-align: center;
+}
+#msg-box3-a .mbr-article {
+  text-align: left;
+  color: #ffffff;
+}
+#msg-box4-12 .mbr-header__text {
+  color: #ffffff;
+}
+#msg-box4-12 .mbr-header__subtext {
+  color: #ffffff;
+}
+#msg-box4-12 .mbr-article {
+  color: #ffffff;
+}
+#msg-box5-b .mbr-header__text {
+  color: #ffffff;
+}
+#msg-box5-b .mbr-header__subtext {
+  color: #ffffff;
+}
+#msg-box5-b .mbr-article {
+  color: #ffffff;
+}
+#msg-box4-13 .mbr-header__text {
+  color: #ffffff;
+}
+#msg-box4-13 .mbr-header__subtext {
+  color: #ffffff;
+}
+#msg-box4-13 .mbr-article {
+  color: #ffffff;
+}
+#msg-box5-15 .mbr-header__text {
+  color: #ffffff;
+}
+#msg-box5-15 .mbr-header__subtext {
+  color: #ffffff;
+}
+#msg-box5-15 .mbr-article {
+  color: #ffffff;
+}
+#msg-box4-14 .mbr-header__text {
+  color: #ffffff;
+}
+#msg-box4-14 .mbr-header__subtext {
+  color: #ffffff;
+}
+#msg-box4-14 .mbr-article {
+  color: #ffffff;
+}
+#msg-box5-16 .mbr-header__text {
+  color: #ffffff;
+}
+#msg-box5-16 .mbr-header__subtext {
+  color: #ffffff;
+}
+#msg-box5-16 .mbr-article {
+  color: #ffffff;
+}
+#msg-box4-q .mbr-header__text {
+  color: #ffffff;
+}
+#msg-box4-q .mbr-header__subtext {
+  color: #ffffff;
+}
+#msg-box4-q .mbr-article {
+  color: #ffffff;
+}
+#contacts3-k P {
+  color: #ffffff;
+  text-align: left;
+}
+#contacts3-k DIV {
+  color: #ffffff;
+}
