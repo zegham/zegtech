@@ -76,33 +76,6 @@ height:40px;
         
 </head>
 <body>
-	<section class="mbr-section mbr-section--relative" id="msg-box4-12" data-rv-view="5" style="background-color: rgb(122, 198, 115);">
-    
-    <div class="mbr-section__container mbr-section__container--isolated container" style="padding-top: 93px; padding-bottom: 93px;">
-        <div class="row">
-            <div class="mbr-box mbr-box--fixed mbr-box--adapted">
-                <div class="mbr-box__magnet mbr-box__magnet--top-right mbr-section__left col-sm-6 image-size" style="width: 50%;">
-                    <figure class="mbr-figure mbr-figure--adapted mbr-figure--caption-inside-bottom mbr-figure--full-width"><img src="assets/images/iphone.png" class="mbr-figure__img"></figure>
-                </div>
-                <div class="mbr-box__magnet mbr-class-mbr-box__magnet--center-left col-sm-6 content-size mbr-section__right">
-                    <div class="mbr-section__container mbr-section__container--middle">
-                        <div class="mbr-header mbr-header--auto-align mbr-header--wysiwyg">
-                            <h3 class="mbr-header__text">DRAG AND DROP WEBSITE BUILDER</h3>
-                            
-                        </div>
-                    </div>
-                    <div class="mbr-section__container mbr-section__container--middle">
-                        <div class="mbr-article mbr-article--auto-align mbr-article--wysiwyg"><p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.</p></div>
-                    </div>
-                    <div class="mbr-section__container">
-                        <div class="mbr-buttons mbr-buttons--auto-align btn-inverse"><a class="mbr-buttons__btn btn btn-lg btn-default" href="https://mobirise.com">LEARN MORE</a></div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-</section>
 
 <nav>
       <div class="nav-wrapper">
@@ -122,7 +95,7 @@ height:40px;
 </nav>
 <div id="container-1">
          <div class="wrapper"> 
-		 <h3> Hello World </h3>
+		 <h3> Hello World! </h3>
 			
             <p> Lorem ipsum dolor sit amet. </p>
             <p> Pellentesque tellus augue, ullamcorper id erat eget, venenatis feugiat purus. Etiam sit amet odio lacinia, mollis odio at, tincidunt mauris. Pellentesque id diam metus. Sed facilisis, mi vel ultricies gravida, sapien magna auctor odio, ullamcorper ullamcorper nisl dui in velit. Morbi at dignissim odio. Praesent dapibus, elit at pulvinar interdum, lectus justo fermentum lacus, quis ornare nisi felis eu arcu. Cras et tortor ullamcorper ante dapibus mattis at nec tortor. Sed pellentesque erat non lectus placerat cursus. </p>
