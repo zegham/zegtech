@@ -63,7 +63,8 @@ ul li a
 	width:100%;
 	margin:10px;
 	text-align:center;
-	background-color:#7ac673;
+	background-color:#d14841;
+	color:white;
 }
 .nav-wrapper
 {
