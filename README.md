@@ -55,7 +55,7 @@ ul  li
 {
 	display:inline-block;
 	width: 150px;
-	line-height:65px;
+	line-height:10px;
 	text-align:center;
 
 
@@ -69,7 +69,7 @@ ul li a
 
 #container 
 {
-	width:50%;
+	width:100%;
 	margin:10px;
 	text-align:center;
 }
