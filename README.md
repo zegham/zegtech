@@ -46,7 +46,7 @@ ul  li
 {
 	display:inline-block;
 	width: 150px;
-	line-height:10px;
+	line-height:30px;
 	text-align:center;
        
 
@@ -85,7 +85,7 @@ height:40px;
 		 <li><a href="#"> Home</a></li>
 		 <li><a href="#"> Products</a></li>
 		 <li><a href="#"> Contact</a></li>
-		 <li><a href="#"> Map</a></li>
+		 <li><a href="https://www.google.com/maps/@31.45728,74.2981632,12z"> Map</a></li>
 		 </ul>
 		 </div>
 		 
