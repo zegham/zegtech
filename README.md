@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <head>
    <title> first web </title>
@@ -23,4 +23,5 @@
 	</div>
 	
 </nav>
+</body>
 </html>
