@@ -69,7 +69,7 @@ ul li a
 .nav-wrapper
 {
 background-color: #fccccf;
-margin:0px;
+border:1px solid black;
 height:40px;
 }
 </style>
