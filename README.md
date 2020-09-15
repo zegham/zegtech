@@ -73,7 +73,10 @@ ul li a
 	margin:10px;
 	text-align:center;
 }
-
+.nav-wrapper
+{
+background-color: #fccccf;
+}
 </style>
         
 </head>
