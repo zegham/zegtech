@@ -1,5 +1,5 @@
 
-<!DOCTYPE html>
+
 <html>
 <head>
    <title> first web </title>
@@ -62,7 +62,7 @@ ul  li
 }
 ul li a
 {
-	color:white;
+	color:black;
 	font-size:medium;
 	
 }
