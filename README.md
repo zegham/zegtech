@@ -15,7 +15,7 @@ body
 }
 .brand-logo
 {
-margin-left: 20px;
+margin-left:20px;
 margin-bottom: 0px;
 font-family:'monotype corsiva';
 
@@ -31,15 +31,6 @@ margin-right: 20px;
 {
 	float:right;
 
-}
-.dark
-{
-	background-color: #fccccf;
-	//color: white;//
-}
-.light
-{
-	background-color: #fbbbbc;
 }
 
 .container
@@ -72,11 +63,12 @@ ul li a
 	width:100%;
 	margin:10px;
 	text-align:center;
-	background-color:green;
+	background-color:#7ac673;
 }
 .nav-wrapper
 {
 background-color: #fccccf;
+margin:0px;
 }
 </style>
         
