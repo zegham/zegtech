@@ -58,10 +58,10 @@ ul li a
 	
 }
 
-#container 
+#container-1 
 {
 	width:100%;
-	margin:10px;
+	margin:0px;
 	text-align:center;
 	background-color:#d14841;
 	color:white;
@@ -91,7 +91,7 @@ margin:0px;
 	</div>
 	
 </nav>
-<div id="container">
+<div id="container-1">
          <div class="wrapper"> 
 		 <h3> Hello World! </h3>
 			
