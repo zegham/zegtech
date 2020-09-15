@@ -11,7 +11,7 @@
 {
 	
 	margin: 0px;
-	text-decoration:none;
+	display:none;
 }
 .brand-logo
 {
