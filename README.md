@@ -57,7 +57,7 @@ ul  li
 	width: 150px;
 	line-height:10px;
 	text-align:center;
-
+        padding:2px;
 
 }
 ul li a
