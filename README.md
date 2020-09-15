@@ -85,7 +85,7 @@ height:40px;
 		 <li><a href="#"> Home</a></li>
 		 <li><a href="#"> Products</a></li>
 		 <li><a href="#"> Contact</a></li>
-		 <li><a href="https://www.google.com/maps/@31.45728,74.2981632,12z"> Map</a></li>
+		 <li><a href="https://www.google.com/maps/place/hallroad/@31.4558463,74.3121377,17z/data=!3m1!4b1!4m5!3m4!1s0x391907e7065e950b:0x6c633bbd939cf7ab!8m2!3d31.4558463!4d74.3143264" class="text-primary" target="_blank"><em>Google Map</em></a> Map</a></li>
 		 </ul>
 		 </div>
 		 
