@@ -72,6 +72,7 @@ ul li a
 	width:100%;
 	margin:10px;
 	text-align:center;
+	background-color:green;
 }
 .nav-wrapper
 {
