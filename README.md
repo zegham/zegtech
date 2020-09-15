@@ -6,6 +6,20 @@
    <link type="text/css" rel="stylesheet" href="mystyle.css">
         
 </head>
+<style>
+	body
+{
+	
+	margin: 0px;
+}
+.brand-logo
+{
+margin-left: 20px;
+margin-bottom: 0px;
+font-family:'monotype corsiva';
+
+}
+</style>
 <body>
 <nav>
       <div class="nav-wrapper">
