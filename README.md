@@ -14,15 +14,15 @@
 #menu ul li
 {
 	background-color:#d14841;
-	margin:4px;
-	border:1px solid white;
+	margin:0px;
+	border:2px solid #D3D3D3;
 	width:150px;
 	height:35px;
 	text-align:center;
 	line-height:35px;
 	float:left;
 	position:relative;
-	border-radius:4px;
+	border-radius:8px;
 }
 #menu ul li a
 {
@@ -34,7 +34,7 @@
 #menu ul li a:hover
 {
 	background-color:green;
-	border-radius:4px;
+	border-radius:8px;
 }
 #menu ul ul
 {
