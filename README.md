@@ -1,7 +1,7 @@
-<DOCUMENT html PUBLIC"//W3C//DTD XHTML 1.0 TRANSITIONAL//ENG"http//www.w3.org/tr/xhtml1/dtd/xhtml1-transitional.dtd">
+
 <html>
 <head>
-<title>tinyurl/zegtech></title>
+<title>tinyurl/zegtech</title>
 <link type="text/css" rel="stylesheet" href="zegtech-files/mystyle.css"/>
 </head>
 <body>
