@@ -16,7 +16,7 @@
 	background-color:#d14841;
 	margin:0px;
 	border:2px solid #D3D3D3;
-	width:155px;
+	width:150px;
 	height:35px;
 	text-align:enter;
 	line-height:35px;
