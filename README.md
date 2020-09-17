@@ -40,7 +40,7 @@
 {
 	position:absolute;
 	display:none;
-	padding:0px;
+	padding:-1px;
 }
 
 #menu ul li:hover>ul
