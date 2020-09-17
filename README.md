@@ -18,7 +18,7 @@
 	border:2px solid #D3D3D3;
 	width:150px;
 	height:35px;
-	text-align:enter;
+	text-align:center;
 	line-height:35px;
 	float:left;
 	position:relative;
