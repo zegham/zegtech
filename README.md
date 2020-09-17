@@ -1,7 +1,7 @@
 
 <html>
 <head>
-<title>tinyurl/zegtech</title>
+
 <link type="text/css" rel="stylesheet" href="zegtech-files/mystyle.css"/>
 </head>
 <body>
