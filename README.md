@@ -14,8 +14,8 @@
 #menu ul li
 {
 	background-color:#d14841;
-	margin:0px;
-	border:4px solid white;
+	margin:4px;
+	border:1px solid white;
 	width:150px;
 	height:35px;
 	text-align:center;
