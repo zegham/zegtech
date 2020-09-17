@@ -22,7 +22,7 @@
 	line-height:35px;
 	float:left;
 	position:relative;
-	border-radius:11px;
+	border-radius:4px;
 }
 #menu ul li a
 {
@@ -34,7 +34,7 @@
 #menu ul li a:hover
 {
 	background-color:green;
-	border-radius:8px;
+	border-radius:4px;
 }
 #menu ul ul
 {
