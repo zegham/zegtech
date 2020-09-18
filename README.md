@@ -38,7 +38,7 @@ Customise IoT Solutions</div>
 <li><a href="#">Software</a></li>
 <li>
               <label for="btn-3" class="show">Automation +</label>
-              <a href="#">More <span class="fa fa-plus"></span></a>
+              <a href="#">Automation<span class="fa fa-plus"></span></a>
               <input type="checkbox" id="btn-3">
               <ul>
 <li><a href="#">industery</a></li>
