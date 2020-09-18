@@ -21,7 +21,7 @@ Customise IoT Solutions</div>
 <li><a href="#">Home</a></li>
 <li>
           <label for="btn-1" class="show"> Services +</label>
-          <a href="#">Features</a>
+          <a href="#">Services</a>
           <input type="checkbox" id="btn-1">
           <ul>
 <li><a href="#">Pages</a></li>
@@ -37,11 +37,11 @@ Customise IoT Solutions</div>
 <li><a href="#">Electronics</a></li>
 <li><a href="#">Software</a></li>
 <li>
-              <label for="btn-3" class="show">Automation +</label>
-              <a href="#">Automation<span class="fa fa-plus"></span></a>
+              <label for="btn-3" class="show">More +</label>
+              <a href="#">More<span class="fa fa-plus"></span></a>
               <input type="checkbox" id="btn-3">
               <ul>
-<li><a href="#">industery</a></li>
+<li><a href="#">Automation</a></li>
 <li><a href="#">power</a></li>
 <li><a href="#">Security</a></li>
 </ul>
