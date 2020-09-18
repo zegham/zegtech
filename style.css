@@ -16,6 +16,7 @@ nav{
   flex-wrap: wrap;
 }
 nav .logo{
+  font-family:'monotype corsiva';
   color: #fff;
   font-size: 35px;
   font-weight: 600;
