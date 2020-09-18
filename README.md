@@ -29,6 +29,16 @@ Responsive Navigation Menu Bar Design</div>
 <div>
 using only HTML & CSS</div>
 </div>
+<div class="container">
+         <div class="wrapper">  
+			<h3> Beautiful Picture </h3>
+			
+            <p> Lorem ipsum dolor sit amet. </p>
+            <p> Pellentesque tellus augue, ullamcorper id erat eget, venenatis feugiat purus. Etiam sit amet odio lacinia, mollis odio at, tincidunt mauris. Pellentesque id diam metus. Sed facilisis, mi vel ultricies gravida, sapien magna auctor odio, ullamcorper ullamcorper nisl dui in velit. Morbi at dignissim odio. Praesent dapibus, elit at pulvinar interdum, lectus justo fermentum lacus, quis ornare nisi felis eu arcu. Cras et tortor ullamcorper ante dapibus mattis at nec tortor. Sed pellentesque erat non lectus placerat cursus. </p>
+            <img src="images/road-big.jpg" class="responsive-img" />
+         </div>
+
+</div>    
 </body>
 </html>
 
