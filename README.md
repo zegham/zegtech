@@ -12,7 +12,7 @@
   <body>
     <nav>
       <div class="logo">
-ZegTech</div>
+Customise IoT Solutions</div>
 <label for="btn" class="icon">
         <span class="fa fa-bars"></span>
       </label>
