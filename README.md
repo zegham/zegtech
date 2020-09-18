@@ -16,7 +16,7 @@ ZegTech</div>
         <i class="fas fa-bars"></i>
       </label>
       <ul>
-<li><a class="active" href="#">Home</a></li>
+<li><a href="#">About Us</a></li>
 <li><a href="#">Products</a>
 <ul>
 	<li><a class="active" href="#">Home</a></li>
