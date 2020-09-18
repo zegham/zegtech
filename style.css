@@ -114,3 +114,10 @@ input[type="checkbox"]{
   font-size: 40px;
   font-weight: 700;
 }
+.container
+{
+width:100%;
+margin-left: 0px;
+text-align:center;
+border:3px solid black;
+}
