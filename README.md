@@ -1,82 +1,35 @@
-
-<html>
-<head>
-<style>
-	*
-{
-	margin:0px;
-	padding:0px;
-}
-#menu ul
-{
-	list-style:none;
-}
-#menu ul li
-{
-	background-color:#d14841;
-	margin:0px;
-	border:2px solid #D3D3D3;
-	width:150px;
-	height:40px;
-	text-align:center;
-	line-height:35px;
-	float:left;
-	position:relative;
-	border-radius:8px;
-}
-#menu ul li a
-{
-	text-decoration:none;
-	color:white;
-	display:block;
-}
-
-#menu ul li a:hover
-{
-	background-color:green;
-	border-radius:8px;
-}
-#menu ul ul
-{
-	position:absolute;
-	display:none;
-	padding:0px;
-	margin:0px;
-}
-
-#menu ul li:hover>ul
-{
-	display:block;
-}
-</style>
-</head>
-<body>
-<div id="cover">
-	<div id="menu">
-			<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Products     <b>\/</b> </a>
-				<ul>
-					<li><a href="#">Electronics</a></li>
-					<li><a href="#">Security & Industery</a></li>
-					<li><a href="#">Mobile & Software</a></li>
-				</ul></li>			
-			<li><a href="#">Contact    <b>\/</b></a>
-					<ul>
-					<li><a href="#">Email</a></li>
-					<li><a href="#">Whatapp</a></li>
-					<li><a href="#">Map</a></li>
-				</ul>
-			</li>
-			<li><a href="#">About-us</a></li>
-		</ul>		
-	</div>
-</div>	
-	
-	
-	
-	
-	
-	
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Responsive Navigation Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+Brand</div>
+<input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+<li><a class="active" href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Gallery</a></li>
+<li><a href="#">Feedback</a></li>
+</ul>
+</nav>
+    <div class="content">
+      <div>
+Responsive Navigation Menu Bar Design</div>
+<div>
+using only HTML & CSS</div>
+</div>
 </body>
 </html>
+
