@@ -23,12 +23,7 @@ ZegTech</div>
 <li><a href="#">Feedback</a></li>
 </ul>
 </nav>
-    <div class="content">
-      <div>
-Responsive Navigation Menu Bar Design</div>
-<div>
-using only HTML & CSS</div>
-</div>
+    
 <div class="container">
          <div class="wrapper">  
 			<h3> Beautiful Picture </h3>
