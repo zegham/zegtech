@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <!-- Created By Zegham -->
 <html lang="en" dir="ltr">
   <head>
