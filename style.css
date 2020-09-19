@@ -28,7 +28,7 @@ nav .logo{
 }
 nav ul{
   float: right;
-  margin-right: 40px;
+  margin-right:50px;
   list-style: none;
   position: relative;
 }
@@ -126,11 +126,11 @@ nav ul ul ul li{
   }
   .icon{
     display: block;
-    color: white;
+    color: cyan;
     position: absolute;
     top: 0;
     right: 40px;
-    line-height: 70px;
+    line-height: 60px;
     cursor: pointer;
     font-size: 25px;
   }
