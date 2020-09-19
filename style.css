@@ -18,7 +18,7 @@ nav:after{
   display: table;
 }
 nav .logo{
-  font-family:'monotype corsiva';
+  font-family:monotype corsiva;
   float: left;
   color: cyan;
   font-size: 27px;
