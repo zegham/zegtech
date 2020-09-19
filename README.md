@@ -52,11 +52,7 @@ Customise IoT Solutions</div>
 <li><a href="#">Contact</a></li>
 </ul>
 </nav>
-    <div class="content">
-      <header>Responsive Drop-down Menu Bar</header>
-      <p>
-HTML and CSS (Media Query)</p>
-</div>
+    
 <script>
       $('.icon').click(function(){
         $('span').toggleClass("cancel");
