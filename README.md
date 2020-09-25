@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <title>Responsive Drop-down Menu Bar</title>
     <link type="text/css" rel="stylesheet" href="style.css">
-
 </head>
 <body>
 
@@ -15,7 +14,7 @@
 <li><a id="hamburger"><b>☰</b></a>
 <ul>
   <li><a href="#">Home</a></li>
-  <li><a href="tryit.asp-filename=tryhow_js_topnav.html#news">Products  +</a>
+  <li><a href="#">Products  +</a>
   <ul>
   <li><a href="#">Electronics +</a>
   <ul>
@@ -61,6 +60,7 @@
 	</li>
   <li><a href="tryit.asp-filename=tryhow_js_topnav.html#about">About</a></li>
   </li>
-  
+  </ul>
+  </ul>
 </div>
 </body>
