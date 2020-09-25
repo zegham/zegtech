@@ -9,7 +9,7 @@ background-color:#fccccf;
 {
 text-align:center;
 display:border;
-border:1px solid black;
+border:1px solid red;
 background-color:#fccccf;
 width:120px;
 height:35px;
@@ -20,6 +20,7 @@ line-height:35px;
 width:100%;}
 #menu ul
 {
+  width:100%;
 margin-left:5px;
 list-style:none;
 }
