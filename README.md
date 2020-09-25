@@ -15,7 +15,7 @@
   <ul>
   <li><a href="#">Electronics +</a>
   <ul>
-       <li><a href="#" class+"active">Home Security</a></li>
+       <li><a href="#" class="active">Home Security</a></li>
        <li><a href="#">Automation</a></li>
 	   <li><a href="#">Automation</a></li>
 	  <li><a href="#">Automation</a></li>
