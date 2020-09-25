@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Responsive Drop-down Menu Bar</title>
     <link type="text/css" rel="stylesheet" href="style.css">
-<link type="text/css" rel="stylesheet" href="mystyle.css">
+
 </head>
 <body>
 
