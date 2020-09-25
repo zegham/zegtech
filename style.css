@@ -21,11 +21,11 @@ line-height:35px;
 width:100%;}
 #menu ul
 {
+  margin-left:0px;
 list-style:none;
 }
 #menu ul ul li
 {
-margin-left:0px;
 background-color:black;
 border:1px solid cyan;
 width:120px;
