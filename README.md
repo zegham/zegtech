@@ -8,7 +8,7 @@
 <div id="menu">
 
 <ul>
-<li><a id="hamburger"><b>☰</b></a>
+<li><a id="hamburger">☰</a>
 <ul>
   <li><a href="#">Home</a></li>
   <li><a href="#">Products  +</a>
