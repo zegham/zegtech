@@ -81,6 +81,7 @@
   border-top: 1px solid rgba(255,255,255,0.1);
   border-bottom: 1px solid #333;
   transition: all 0.3s ease;
+  position:relative;
 }
 #sidebar .list-items li:hover{
   border-top: 1px solid transparent;
@@ -149,5 +150,38 @@
   font-size: 40px;
   font-weight: 700;
 }
+#sub-title li
+{
+position:absolute;
+display:none;
+list-style:none;
 
+}
+	
+#sidebar .list-items li:hover> #sub-title li
+{
+		display:block;
+ }
+#img-top{
+  background: url(bg6.jpg) no-repeat;
+  background-size: cover;
+  height: calc(80vh - 80px);
+}
+
+#img-top h1
+{
+color:white;
+font-family:lora;
+font-size:35px;
+text-align:center;
+padding-top:45px;
+}
+
+#img-top p
+{
+	color:white;
+font-family:oxygen;
+text-align:center;
+font-size:16px;
+}
 
