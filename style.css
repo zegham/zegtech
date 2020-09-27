@@ -165,14 +165,15 @@ display:block;
 #img-top{
   background: url(bg6.jpg) no-repeat;
   background-size: cover;
-  height: calc(80vh - 80px);
+  height:100%;
+  width:100%;
 }
 
 #img-top h1
 {
 color:white;
 font-family:lora;
-font-size:35px;
+font-size:20px;
 text-align:center;
 padding-top:45px;
 }
