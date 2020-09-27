@@ -160,7 +160,7 @@ list-style:none;
 	
 #sidebar .list-items li:hover> #sub-title li
 {
-		display:block;
+display:block;
  }
 #img-top{
   background: url(bg6.jpg) no-repeat;
@@ -179,7 +179,7 @@ padding-top:45px;
 
 #img-top p
 {
-	color:white;
+color:white;
 font-family:oxygen;
 text-align:center;
 font-size:16px;
