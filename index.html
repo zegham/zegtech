@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Animated Sidebar Menu | CodingLab</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <div class="wrapper">
@@ -14,16 +16,20 @@
         <i class="fas fa-times"></i>
       </label>
       <nav id="sidebar">
-        <div class="title">Side Menu</div>
+        <div class="title">Menu</div>
         <ul class="list-items">
-          <li><a href="https://zegham.github.io/zegtech/"><i class="fas fa-home"></i>Home</a></li>
-          <li><a href="#"><i class="fas fa-sliders-h"></i>Clients</a></li>
-          <li><a href="#"><i class="fas fa-address-book"></i>Services</a></li>
-          <li><a href="#"><i class="fas fa-cog"></i>Settings</a></li>
-          <li><a href="#"><i class="fas fa-stream"></i>Features</a></li>
-          <li><a href="#"><i class="fas fa-user"></i>About us</a></li>
-          <li><a href="#"><i class="fas fa-globe-asia"></i>Languages</a></li>
-          <li><a href="#"><i class="fas fa-envelope"></i>Contact us</a></li>
+          <li><a href="#"><i class="fas fa-home" style="font-size:20px;color:lightgreen"></i>Home</a></li>
+          <li><a href="#"><i class="fa fa-product-hunt" style="font-size:20px;color:lightblue"></i>Products</a>
+		<ul id ="sub-title">
+		  <li><a href="#"><i class='fas fa-circle'style="font-size:10px;color:gold"></i>Electronics</a>
+		 <li><a href="#"><i class='fas fa-circle'style="font-size:10px;color:gold"></i>Automation</a>
+		 <li><a href="#"><i class='fas fa-circle'style="font-size:10px;color:gold"></i>Remote Sensor</a>
+		 <li><a href="#"><i class='fas fa-circle'style="font-size:10px;color:gold"></i>Mobile</a>
+		 </ul>
+		  </li>
+          <li><a href="#"><i class="fas fa-address-book"style="font-size:22px;color:lightblue"></i>Services</a></li>
+          <li><a href="#"><i class="fas fa-user"style="font-size:22px;color:lightblue"></i>About us</a></li>
+          <li><a href="#"><i class="fas fa-envelope"style="font-size:22px;color:lightblue"></i>Contact us</a></li>
           <div class="icons">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
@@ -33,9 +39,11 @@
         </ul>
       </nav>
     </div>
-    <div class="content">
-      <div class="header">Animated Side Navigation Menu</div>
-      <p>using only HTML and CSS</p>
-    </div>
-  </body>
+	<section id="img-top">
+
+      <h1>Together, Engineering the Extraordinary</h1>
+      <p>IoT Customization Service</p>
+  
+	</section>
+	</body>
 </html>
