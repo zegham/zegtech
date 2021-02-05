@@ -160,7 +160,7 @@ list-style:none;
 	
 #sidebar .list-items li:hover> #sub-title li
 {
-display:block;
+display:block;color blue;
  }
 #img-top{
   background: url(bg6.jpg) no-repeat;
