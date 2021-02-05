@@ -86,7 +86,7 @@
 #sidebar .list-items li:hover{
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
-  box-shadow: 0 0px 10px 3px #222;
+  box-shadow: 0 0px 10px 3px #22222;
 }
 #sidebar .list-items li:first-child{
   border-top: none;
@@ -160,7 +160,7 @@ list-style:none;
 	
 #sidebar .list-items li:hover> #sub-title li
 {
-display:block;color blue;
+display:block;
  }
 #img-top{
   background: url(bg6.jpg) no-repeat;
