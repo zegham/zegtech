@@ -164,8 +164,8 @@ display:block;
  }
 #img-top{
   background: url(bg6.jpg) repeat;
-  background-size;
-  height:200%;
+  background-size: cover;
+  height:400%;
   width:100%;
 }
 
