@@ -163,9 +163,9 @@ list-style:none;
 display:block;
  }
 #img-top{
-  background: url(bg6.jpg) repeat;
+  background: url(bg6.jpg) no-repeat;
   background-size: cover;
-  height:400%;
+  height:100px;
   width:100%;
 }
 
