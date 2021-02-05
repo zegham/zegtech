@@ -163,7 +163,7 @@ list-style:none;
 display:block;
  }
 #img-top{
-  background: url(bg6.jpg) no-repeat;
+  background: url(bg6.jpg) repeat;
   background-size: cover;
   height:200%;
   width:100%;
