@@ -53,7 +53,7 @@
   height: 100%;
   width: 270px;
   overflow: hidden;
-  left: -280px;
+  left: -270px;
   transition: all 0.3s ease;
 }
 #btn:checked ~ #sidebar{
