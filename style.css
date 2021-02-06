@@ -170,8 +170,8 @@ display:block;
 #img-top{
   background: url(bg6.jpg) no-repeat;
   background-size: cover;
-  height:1000px;
-  width:666px;
+  height:100%;
+  width:100%;
 }
 
 #img-top h1
