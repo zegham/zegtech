@@ -167,7 +167,7 @@ list-style:none;
 {
 display:block;
  }
-#img-top{
+#img-top body{
   background: url(electronic-gadgets.jpg) no-repeat;
   background-size: fixed;
  height:100%;
