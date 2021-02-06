@@ -171,7 +171,7 @@ display:block;
   background: url(electronic-gadgets.jpg) no-repeat;
   background-attachment: fixed;
   background-size: cover;
- height:680px;
+ height:auto;
  width:1300px;	
 }
 
