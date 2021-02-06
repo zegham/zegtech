@@ -169,9 +169,10 @@ display:block;
  }
 #img-top{
   background: url(electronic-gadgets.jpg) no-repeat;
-  background-size: fixed;
- height:1200px;
-  width:680px;
+	background-attachment: fixed;
+  background-size: 100% 100%;
+ /*height:1200px;
+  width:680px;*/
 }
 
 #img-top h1
