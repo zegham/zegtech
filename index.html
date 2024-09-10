@@ -1,49 +1,183 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>ZEGTECH</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <div class="wrapper">
-      <input type="checkbox" id="btn" hidden>
-      <label for="btn" class="menu-btn">
-        <i class="fas fa-bars"></i>
-        <i class="fas fa-times"></i>
-      </label>
-      <nav id="sidebar">
-        <div class="title">Menu</div>
-        <ul class="list-items">
-          <li><a href="#"><i class="fas fa-home" style="font-size:20px;color:lightgreen"></i>Home</a></li>
-          <li><a href="#"><i class="fa fa-product-hunt" style="font-size:20px;color:lightblue"></i>Products</a>
-		<ul id ="sub-title">
-		  <li><a href="#"><i class='fas fa-circle'style="font-size:10px;color:gold"></i>Electronics</a>
-		 <li><a href="#"><i class='fas fa-circle'style="font-size:10px;color:gold"></i>Automation</a>
-		 <li><a href="#"><i class='fas fa-circle'style="font-size:10px;color:gold"></i>Remote Sensor</a>
-		 <li><a href="#"><i class='fas fa-circle'style="font-size:10px;color:gold"></i>Mobile</a>
-		 </ul>
-		  </li>
-          <li><a href="#"><i class="fas fa-address-book"style="font-size:22px;color:lightblue"></i>Services</a></li>
-          <li><a href="#"><i class="fas fa-user"style="font-size:22px;color:lightblue"></i>About us</a></li>
-          <li><a href="#"><i class="fas fa-envelope"style="font-size:22px;color:lightblue"></i>Contact us</a></li>
-          <div class="icons">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-	    <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
-	    <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-            <a href="#"><i class="fas fa-envelope"></i></a>
-	    </div>
-        </ul>
-      </nav>
-    </div>
-<section id="img-top">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percival Menswear</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-      <h1>Together, Engineering the Extraordinary</h1>
-      <p>IoT Customization Service</p>
- </section>
+    <!-- Header and Navigation -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://pin.it/6YE3chpVK" alt="logo_off_web">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li class="dropdown">
+                    <a href="#">Collections</a>
+                    <div class="dropdown-content">
+                        <a href="#">Spring/Summer Collection</a>
+                        <a href="#">Autumn/Winter Collection</a>
+                        <a href="#">Exclusive Editions</a>
+                        <a href="#">Accessories</a>
+                    </div>
+                </li>
+                <!-- Login Dropdown -->
+                <li class="dropdown">
+                    <a href="#">Login</a>
+                    <div class="dropdown-content login-form">
+                        <form onsubmit="return handleLoginSubmit()">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" required>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <p id="mainCart">Main Cart: $0</p>
+        </nav>
+    </header>
+
+    <!-- Branding Banner -->
+    <section class="branding-banner">
+        <div class="branding-text">
+            <h1>Percival Menswear</h1>
+            <p>where thread u n r a v e l s into art</p>
+        </div>
+    </section>
+
+    <!-- Collections Section -->
+    <section class="collections">
+        <h2>Spring/Summer Collection</h2>
+        <div class="collection-row">
+            <!-- Product 1 -->
+            <div class="product">
+                <img src="https://pin.it/6YE3chpVK" alt="Product 1">
+                <h3>Product Name 1</h3>
+                <p>Code: BS112 | Price: $120</p>
+                <button class="cart-btn" onclick="addToCart('BS112')">Add to Cart</button>
+                <span id="BS112-cart-count">0</span>
+            </div>
+            <!-- Product 2 -->
+            <div class="product">
+                <img src="images/product2.jpg" alt="Product 2">
+                <h3>Product Name 2</h3>
+                <p>Code: BS113 | Price: $150</p>
+                <button class="cart-btn" onclick="addToCart('BS113')">Add to Cart</button>
+                <span id="BS113-cart-count">0</span>
+            </div>
+            <!-- Product 3 -->
+            <div class="product">
+                <img src="images/product3.jpg" alt="Product 3">
+                <h3>Product Name 3</h3>
+                <p>Code: BS114 | Price: $130</p>
+                <button class="cart-btn" onclick="addToCart('BS114')">Add to Cart</button>
+                <span id="BS114-cart-count">0</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>© 2024 Percival Menswear. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- JavaScript Code -->
+    <script>
+        // Variables to store product prices
+        let BS112_price = 120;
+        let BS113_price = 150;
+        let BS114_price = 130;
+
+        // Cart counts for each product
+        let BS112_count = 0;
+        let BS113_count = 0;
+        let BS114_count = 0;
+
+        // Main cart total price
+        let mainCartTotal = 0;
+
+        // Function to update the cart count and price
+        function addToCart(productCode) {
+            let productCount = 0;
+            let productPrice = 0;
+            let productCountDisplay = null;
+
+            if (productCode === 'BS112') {
+                if (BS112_count < 50) {
+                    BS112_count++;
+                    productCount = BS112_count;
+                    productPrice = BS112_price * productCount;
+                    productCountDisplay = document.getElementById('BS112-cart-count');
+                }
+            } else if (productCode === 'BS113') {
+                if (BS113_count < 50) {
+                    BS113_count++;
+                    productCount = BS113_count;
+                    productPrice = BS113_price * productCount;
+                    productCountDisplay = document.getElementById('BS113-cart-count');
+                }
+            } else if (productCode === 'BS114') {
+                if (BS114_count < 50) {
+                    BS114_count++;
+                    productCount = BS114_count;
+                    productPrice = BS114_price * productCount;
+                    productCountDisplay = document.getElementById('BS114-cart-count');
+                }
+            }
+
+            // Update the count display next to the cart button
+            if (productCountDisplay) {
+                productCountDisplay.innerHTML = productCount;
+            }
+
+            // Update the main cart total
+            updateMainCart();
+        }
+
+        // Function to update the main cart total
+        function updateMainCart() {
+            mainCartTotal = (BS112_count * BS112_price) + (BS113_count * BS113_price) + (BS114_count * BS114_price);
+            document.getElementById('mainCart').innerHTML = 'Main Cart: $' + mainCartTotal;
+        }
+
+        // Function to validate email format
+        function validateEmail(email) {
+            let re = /\S+@\S+\.\S+/;
+            return re.test(email);
+        }
+
+        // Function to handle login form submission
+        function handleLoginSubmit() {
+            let name = document.getElementById('name').value;
+            let email = document.getElementById('email').value;
+            if (!validateEmail(email)) {
+                alert('Please enter a valid email address.');
+                return false;
+            }
+            // Store name and email in variables for later use
+            let userName = name;
+            let userEmail = email;
+            console.log('User Name:', userName);
+            console.log('User Email:', userEmail);
+            alert('Login successful!');
+            return false; // Prevent actual form submission for demo purposes
+        }
+    </script>
+
 </body>
 </html>
